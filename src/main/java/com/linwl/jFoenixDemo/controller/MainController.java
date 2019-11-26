@@ -27,7 +27,7 @@ public class MainController implements Initializable {
     @FXML
     public void onStart(ActionEvent actionEvent) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setContentText("弹出的那个1");
+        alert.setContentText("测试JFX");
         alert.showAndWait();
     }
 }
