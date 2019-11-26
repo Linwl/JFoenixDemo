@@ -9,14 +9,14 @@
             fx:controller="com.linwl.jFoenixDemo.controller.MainController"
             prefHeight="400.0" prefWidth="600.0">
     <HBox spacing="10">
-        <JFXButton prefWidth="100" prefHeight="40" buttonType="RAISED" text="BUTTON"
+        <JFXButton prefWidth="100" prefHeight="40" buttonType="RAISED" text="测试"
                    style="-fx-font-size:14px;-fx-background-color:WHITE;"/>
-        <JFXButton prefWidth="100" prefHeight="40" buttonType="RAISED" text="COLORED" fx:id="dialogButton"
+        <JFXButton prefWidth="100" prefHeight="40" buttonType="RAISED" text="测试1" fx:id="dialogButton" onAction="#onStart"
                    style="-fx-text-fill:WHITE;-fx-background-color:#5264AE;-fx-font-size:14px;"/>
-        <JFXButton prefWidth="100" prefHeight="40" buttonType="RAISED" text="DISABLED"
+        <JFXButton prefWidth="100" prefHeight="40" buttonType="RAISED" text="测试2"
                    style="-fx-background-color:WHITE;-fx-font-size:14px;" disable="true"/>
-        <JFXCheckBox text="Notifications" styleClass="custom-jfx-check-box"/>
-        <JFXCheckBox text="Auto Updates" styleClass="custom-jfx-check-box-all-colored"/>
+        <JFXCheckBox text="Notifications" />
+        <JFXCheckBox text="Auto Updates" />
         <padding>
             <Insets top="10" left="20"/>
         </padding>
