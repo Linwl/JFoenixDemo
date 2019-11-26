@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.linwl.jFoenixDemo.controller.MainController"
+            prefHeight="400.0" prefWidth="600.0">
+    <HBox spacing="10">
+        <JFXButton prefWidth="100" prefHeight="40" buttonType="RAISED" text="BUTTON"
+                   style="-fx-font-size:14px;-fx-background-color:WHITE;"/>
+        <JFXButton prefWidth="100" prefHeight="40" buttonType="RAISED" text="COLORED" fx:id="dialogButton"
+                   style="-fx-text-fill:WHITE;-fx-background-color:#5264AE;-fx-font-size:14px;"/>
+        <JFXButton prefWidth="100" prefHeight="40" buttonType="RAISED" text="DISABLED"
+                   style="-fx-background-color:WHITE;-fx-font-size:14px;" disable="true"/>
+        <JFXCheckBox text="Notifications" styleClass="custom-jfx-check-box"/>
+        <JFXCheckBox text="Auto Updates" styleClass="custom-jfx-check-box-all-colored"/>
+        <padding>
+            <Insets top="10" left="20"/>
+        </padding>
+    </HBox>
+
+</AnchorPane>
